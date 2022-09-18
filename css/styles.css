@@ -1,0 +1,270 @@
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5em;
+  line-height: 1.5;
+
+}
+
+h2{
+    font-family: "Montserrat";
+      color: #fff;
+      font-weight: 800;
+      line-height: 2;
+      font-size: 2em;
+}
+
+/* title */
+#title {
+  background-color: #ff4c68;
+}
+.fristh1{
+  color: white;
+}
+.container-fluid {
+  padding: 4% 15%;
+}
+
+.btn-sec {
+  margin-right: 2%;
+  text-align: center;
+}
+ .mobdiv{
+  position: relative;
+}
+.Title-image  {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+.fristbutton {
+  margin: 3% 4% 3% 0;
+  font-size: 1.5em;
+}
+/* top */
+/* navbar */
+.navbar {
+  margin-bottom: 3%
+}
+
+.navbar-brand {
+  margin-left: 0;
+  font-family: "Ubuntu";
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+.nav-item {
+  font-family: "Montserrat";
+  color: grey;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding: 0.7em;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+/* nav */
+/* featurebox */
+#features{
+  background-color: #fff;
+  padding: 8% 15% ;
+  text-align: center;
+  position:relative;
+  z-index: 1;
+
+}
+.featureh3{
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.7em;
+  margin-bottom: .5em;
+}
+.featureicon{
+  color: #ef8172;
+  margin-bottom: .2em;
+  margin-top: .6em;
+}
+.featureicon:hover{
+  color:#ff4c68;
+}
+.POFFEATURE{
+  color: #8f8f8f;
+text-align: center;
+padding: 0 5%;
+}
+.featurebox{
+  height: 20em;
+
+}
+/* featureboxthend */
+/* testimonial */
+#testimonials{
+  background-color:#ef8172;
+  text-align: center;
+  color: #fff;
+}
+.h2oftestimonials{
+  padding: 5% 12% 1%;
+  font-size: 2.8em;
+  line-height: 1.5;
+}
+
+.dogimg{
+  width: 8%;
+  border-radius: 100%;
+  margin-right: 4px;
+  margin-left: 3em;
+  margin-bottom: 4em;
+}
+em{
+  font-family: "Merriweather";
+  font-weight: lighter;
+  font-size: .8em;
+}
+
+
+
+/* testimonial */
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 4% 15% ;
+}
+.presslogo{
+margin: 3% 0;
+  width: 80%;
+}
+/* pricing */
+#pricing{
+  padding: 8%;
+  text-align: center;
+}
+.h1ofpricing{
+  margin-bottom: .7em;
+}
+.h3ofpricing{
+  margin: 0 0 4% 0;
+}
+
+h4{
+  font-size: 2em;
+  font-family: "Montserrat";
+  font-weight: bolder;
+
+}
+
+.card-title{
+  font-size: 2.3em;
+  font-weight: bold;
+}
+.pofpricing{
+  line-height: 1.1;
+}
+
+
+
+
+/* pricing */
+
+
+/* cta */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 7% 5%;
+}
+.ctah3{
+  margin-bottom: 4%;
+  font-family: "Montserrat";
+  font-size: 4em;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: #fff;
+
+}
+.ctabtn{
+margin: 0 2% 0 4%;
+
+}
+/* cta */
+
+/* footer */
+
+#footer{
+    text-align: center;
+    padding: 5% 10% 20%;
+}
+
+.footerlogo{
+  margin: 1% 2% 3%;
+}
+.footerlogo:hover{
+
+color: grey;
+}
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobileortabfnx */
+
+@media (max-width:64.25em) {
+  .Title-image {
+    position: static;
+    transform: rotate(0);
+  }
+#title{
+  text-align: center;
+}
+.presslogo{
+  width: 60%;
+  margin: 3% 0 ;
+
+}
+.dogimg{
+  width:20%;
+}
+#features{
+  margin: 4% 7%;
+}
+#footer{
+  margin:20%;
+  padding: 1%;
+}
+.footerlogo{
+  margin: 5% 4%;
+}
+}
+
+
+/* mobileortabfnx */
